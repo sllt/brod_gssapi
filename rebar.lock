@@ -1,8 +1,4 @@
-{"1.2.0",
-[{<<"sasl_auth">>,{pkg,<<"sasl_auth">>,<<"2.0.1">>},0}]}.
-[
-{pkg_hash,[
- {<<"sasl_auth">>, <<"0CA8374C414D2C22E149AF65D7B5A5D5D79DFAD9E0540A8250410A3F10ED9AAD">>}]},
-{pkg_hash_ext,[
- {<<"sasl_auth">>, <<"12B828477FB4575FD5BEF4AA3B00448A828A63BB221990EB3699D889F677BFCA">>}]}
-].
+[{<<"sasl_auth">>,
+  {git,"https://github.com/sllt/sasl_auth",
+       {ref,"a260f6e25fdb6ebc838f4f12cfc3c15aa79e4387"}},
+  0}].
